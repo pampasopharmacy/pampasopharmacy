@@ -1,0 +1,47 @@
+div.hideme {
+  display: none;
+}
+
+body{
+  margin-top: 6px;
+  margin-left: 4px;
+
+}
+
+.whatsappbutton {
+  color: #fff;
+  background: #2ab200;
+  border-color: #2ab200;
+  padding: 12px 9px 12px 8px;
+  cursor: pointer;
+
+  font-weight: bold;
+  touch-action: manipulation;
+  border-radius: 5px;
+  display: flex; /* Use flexbox to align items horizontally and vertically */
+  align-items: center; /* Center items vertically */
+
+
+  font-size: 14px;
+  background-image: url('icons8-whatsapp-48.png');
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: 12px center;
+}
+
+.image-icon {
+  width: 18px; /* Set the desired width for the image */
+  height: 18px; /* Set the desired height for the image */
+  margin-left: 10px; /* Add space between the left border and the image */
+  padding: 10px 0 0 0;
+}
+
+.thosetext {
+  display: flex;
+  color : Tomato;
+  font-weight: bold;
+}
+
+#distanceInfo{
+  padding-right: 18px;
+}
