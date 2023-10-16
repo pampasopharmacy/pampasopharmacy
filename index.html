@@ -1,1 +1,93 @@
-<!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Flashing Text and Animated Dots</title> <style>body{font-family: Arial, sans-serif; background-color: #333; color: white; margin: 0; display: flex; align-items: center; justify-content: center; min-height: 100vh;}.container{text-align: center; /* Center the content horizontally */}.flashing-text{font-size: 24px; animation: flashText 1s infinite alternate, pause 1s alternate infinite;}.dot-container{display: inline-block;}.dot{display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin: 0 5px; animation: flashDot 1s infinite alternate, pause 1s alternate infinite;}.red-dot{background-color: red;}.green-dot{background-color: green;}.yellow-dot{background-color: yellow;}@keyframes flashText{from{opacity: 1;}to{opacity: 0;}}@keyframes flashDot{from{transform: scale(1);}to{transform: scale(1.2);}}@keyframes pause{0%, 100%{opacity: 1;}50%{opacity: 0;}}</style></head><body> <div class="container"> <div class="flashing-text"> Time out, hosting reversal underway <div class="dot-container"> <span class="dot red-dot"></span> <span class="dot green-dot"></span> <span class="dot yellow-dot"></span> </div></div></div></body></html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .iframe-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* Optional: Remove iframe border */
+        }
+
+        div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 25px;
+  background-color: white;
+  border: 3px solid white;
+
+  /* Center the paragraph both horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div.fixed p {
+  /* Additional styling for the paragraph */
+  text-align: center; /* Center the text horizontally */
+  margin: 0; /* Remove default margin for the paragraph */
+  color: #16A34A;
+}
+    </style>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3106356182336547"
+         crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--  <h1>Enter Your Special Code</h1>
+
+    <form id="authentication-form">
+        <input type="text" id="special-code" placeholder="Special Code">
+        <button type="button" id="submit-button">Submit</button>
+    </form>
+
+    <script>
+        // Replace this array with your list of special codes
+        let specialCodes = ['code1', 'code2', 'code3'];
+
+        const submitButton = document.getElementById("submit-button");
+        const specialCodeInput = document.getElementById("special-code");
+
+        submitButton.addEventListener("click", function () {
+            const enteredCode = specialCodeInput.value.trim();
+
+            if (specialCodes.includes(enteredCode)) {
+                // Remove the used code from the array
+                specialCodes = specialCodes.filter(code => code !== enteredCode);
+
+                // Redirect to the ticket generation page
+                window.location.href = "ticketgenerator.html";
+            } else {
+                alert("Invalid special code. Please try again.");
+            }
+        });
+    </script>
+-->
+
+<div class="iframe-container">
+    <iframe src="https://store1301.store.link/"></iframe>
+    <div class="fixed">
+      <p><b><a href="map.html">CLICK TO SUBMIT YOUR DELIVERY LOCATION</a></b></p>
+    </div>
+</div>
+
+</body>
+</html>
